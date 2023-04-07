@@ -1,0 +1,43 @@
+.cont-cart {
+    background-color: rgb(246, 234, 222);
+    border-radius: 10px;
+    position:relative;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
+  .price {
+    float: right;
+  }
+  
+  hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .col-25,
+    .col-75,
+    .container {
+      width: 50%;
+    }
+  }
+  
