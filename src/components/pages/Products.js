@@ -1,7 +1,6 @@
 import Card from '../card/Card';
-import Cart from '../cart/Cart'
+import Cart from './Cart';
 import React, { useState } from 'react';
-
 const Products = () => {
   const [cartItems, setCartItems] = useState([]);
   const addToCart = (product) => {
@@ -10,8 +9,9 @@ const Products = () => {
   
   return (
     <div>
-      <Cart cartItems={cartItems} />
+      
       <Card addToCart={addToCart} />
+      <Cart cartItems={cartItems} />
     </div>
   );
 };

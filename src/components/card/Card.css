@@ -1,5 +1,5 @@
-h2{
-  color:rgb(158, 226, 201);
+h2 {
+  color: rgb(158, 226, 201);
   text-align: center;
   font-size: medium;
   margin: 0 0 2em;
@@ -16,7 +16,7 @@ h2{
   text-align: center;
 }
 
-.box{
+.box {
   display: flex;
   flex-direction: column;
   background-color: #fff;
@@ -27,36 +27,40 @@ h2{
   box-shadow: rgba(0, 0, 1, 0.294) 0px 30px 60px -12px inset, rgba(3, 7, 22, 0.146) 0px 18px 36px -18px inset;
 }
 
-.bnt2{
+.btn {
   margin-top: auto;
   display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
-h5{
-  color:rgb(28, 28, 86);
+h5 {
+  color: rgb(28, 28, 86);
   text-align: center;
   font-family: fantasy;
 }
 
-p{
+p {
   font-style: italic;
-  color:rgb(0, 0, 0);
-  font-size: 1.2rem;
+  color: rgb(0, 0, 0);
+  font-size: .9rem;
 }
 
-.container-image{
+
+.container-image {
   max-width: 50%;
   max-height: 30%;
   object-fit: contain;
 }
 
-.button{
+.button {
   position: reltive;
   margin-bottom: 0%;
   min-width: 25%;
   min-height: 40%;
   border: none;
-  background: linear-gradient(to bottom right, #112a4a, #5186cc);
+  background: linear-gradient(to bottom right, #389261, #6dd66a);
   border-radius: 20px;
   cursor: pointer;
   text-align: center;
@@ -64,21 +68,29 @@ p{
   font-weight: bold;
   font-family: 'Open Sans';
   font-weight: 600;
-  color: #cecece;
+  color: #080000;
   float: left;
 }
 
 .button:active {
-  box-shadow: 0px 4px #1f6a95;
+  box-shadow: 0px 4px #10741a;
   transform: translateY(6px);
 }
 
-.fav{ 
-  background: linear-gradient(to bottom right, #b89797, #f40505cc);
-  float: right;
+.fav {
+  background: linear-gradient(to bottom right, #dc2626, #f40505cc);
 }
 
-.fav:active{
+.fav:active {
   box-shadow: 0px 4px #ae3131;
+  transform: translateY(6px);
+}
+
+.show {
+  background: linear-gradient(to bottom right, #b7c6d5, #b7c6d5);
+}
+
+.show:active {
+  box-shadow: 0px 4px #03213d;
   transform: translateY(6px);
 }

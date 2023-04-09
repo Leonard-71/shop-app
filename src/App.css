@@ -1,12 +1,11 @@
-body{
-  /* background-color: #284143d4; */
-   background-color: #77888aee; 
-   background-color: #b7c6d5;
+body {
+
+  background-color: #b7c6d5;
 
 }
+
 .App {
   text-align: center;
- 
 }
 
 .App-logo {
@@ -23,7 +22,7 @@ body{
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
-   display: flex; 
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -39,6 +38,7 @@ body{
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -67,18 +67,16 @@ body{
 
 .container::-webkit-scrollbar {
   width: 1em;
-  display:  none;
+  display: none;
 }
 
 footer {
   padding: 12px;
   position: fixed;
   bottom: 0;
-  width:100%;
-  height:50px;   
-  background:rgb(14, 23, 28);
+  width: 100%;
+  height: 50px;
+  background: rgb(14, 23, 28);
   color: white;
   text-align: center;
 }
-
-

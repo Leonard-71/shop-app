@@ -19,6 +19,10 @@ function Navbar() {
     }
   }, [])
 
+
+
+
+
   return (
     <nav>
       <div>
@@ -30,8 +34,11 @@ function Navbar() {
        <li><a href="/products" > Produsts</a></li>
        <li><a  href="/about" > About</a></li>
        <li style={{ float: "right" }}> <a  href="/shop"> Shop</a></li>
+  
       </ul>
       )}
+   
+      
     </nav>
   )
 }
