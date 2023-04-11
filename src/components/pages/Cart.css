@@ -1,9 +1,12 @@
 .cont-cart {
     background-color: rgb(246, 234, 222);
     border-radius: 10px;
-    position:relative;
-    padding-left: 10%;
-    padding-right: 10%;
+    position: absolute;
+    top: 80px;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: 3px solid rgb(0, 0, 0);
+    right: 27px;
   }
   
   .price {
